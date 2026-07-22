@@ -1,0 +1,42 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# PyInstaller intermediates
+build/
+
+# Generated backtest and analysis output
+backtest_output*/
+random_backtest_1000/
+
+# Local backtest research scripts
+backtest_*.py
+random_backtest_1000.py
+
+# Runtime data and logs
+*.log
+settings.json
+state.json
+
+# Credentials and private keys
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Keep only directly runnable release artifacts in dist
+dist/*
+!dist/XAUUSD预警助手-v1.0.0.exe
